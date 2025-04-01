@@ -21,7 +21,7 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
-
+/NMT_SEM6/
 ### VS Code ###
 .vscode/
 
