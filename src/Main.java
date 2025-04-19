@@ -195,7 +195,7 @@ public class Main extends Application {
 
 //        Scene scene = new Scene(layout, 500, 350);
         Scene scene = new Scene(layout, 600, 400);
-        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm()); // Load CSS
+        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm()); 
         primaryStage.setScene(scene);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Language Translator");
