@@ -24,7 +24,7 @@ import org.bson.types.ObjectId;
 public class Main extends Application {
 
     private static final String SERVER_HOST = "127.0.0.1"; // Server IP
-    private static final int SERVER_PORT = 5000; // Must match the Python server
+    private static final int SERVER_PORT = 5000;
     private  MongoClient mongoClient;
     private MongoDatabase database;
     private MongoCollection<Document> collection;
@@ -195,7 +195,7 @@ public class Main extends Application {
 
 //        Scene scene = new Scene(layout, 500, 350);
         Scene scene = new Scene(layout, 600, 400);
-        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm()); 
+        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
         primaryStage.setScene(scene);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Language Translator");
